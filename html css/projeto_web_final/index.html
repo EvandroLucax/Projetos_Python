@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilo_rodape.css">
+    <link rel="stylesheet" href="estilo_navbar.css">
+    <link rel="stylesheet" href="estilo_conteudo.css">
+    <style>
+
+
+        #cabecalho{
+            background-color: black;
+            height:110px;
+            width: 100%;
+            
+        }
+
+        #icons_navbar a{
+            color: beige;
+            float: right;
+            
+        }
+        #icons_navbar a > i{
+            margin-inline: 2px;
+            
+        }
+
+
+        #icons_navbar a:hover{
+            background-color: rgba(207, 206, 200, 0.29);
+            border-radius: 10px;
+            
+        }
+
+        #logo_cabecalho{
+            margin-right: 40px;
+            border: solid 2px white;
+        }
+
+        .Div_centralizazar{
+            display: flex;
+            justify-content:center;
+        }
+
+        .image_fundo_carro{
+            display: flex;
+            justify-content:center;
+            height: 650px;
+            width: 100% ;
+            
+        }
+
+        .image_fundo_carro img{
+            height: auto;
+            width:100%;
+            object-fit: cover;
+
+            
+        }
+
+
+        .form{
+            margin-top: 250px;
+            position:absolute;
+        }
+
+        .form form{
+            border-radius: 8px;
+            background-color: aqua;
+            height: 100px;
+        }
+
+        #foto_principal{
+          background-image: url(https://www.lux-review.com/wp-content/uploads/2019/05/streets.png);
+          background-size: cover;
+          background-position: bottom;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lançamento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promoção</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Esportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <nav  id="icons_navbar">
+              <a class="navbar-brand" href="#">
+                <i class="bi bi-person-circle"></i>
+                Entrar
+              </a>
+        </nav>
+
+        <nav id="icons_navbar">
+            <a class="navbar-brand" href="#">
+              <i class="bi bi-heart"></i>
+            </a>
+        </nav>
+
+        <nav id="icons_navbar">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-bag"></i>
+          </a>
+      </nav>
+
+        
+
+
+  </nav>
+        
+  <div class="p-4 p-md-5 mb-4 text-black rounded " id="foto_principal">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic " style=" font-weight: 400;   color: white; text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px" >Title of a longer featured blog post</h1>
+      <p class="lead my-3" style=" font-weight: 400;   color: white; text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    </div>
+  </div>
+
+        <!-- <div class="image_fundo_carro">
+            <img src="back.jpg" height="100%" alt="...">
+        </div>           -->
+
+    <hr class="featurette-divider" id="barra_separar">
+    <div class="Titulo_conteudo">Texto aleatorio....</h3></div>
+    
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+          <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/hb0/ha3/h00/h00/11903032492062/1002001070011U-01-BASEIMAGE-Hires.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Old Skool Black White </h5>
+                              <!-- Product price-->
+                              R$399.90
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/380190/40/fnd/BRA/w/1000/h/1000/fmt/png" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Puma Ca Pro Classic </h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">R$599,90</span>
+                              R$550,90
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://imgnike-a.akamaihd.net/768x768/02799851A5.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Nike Air Force 1 '07</h5>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">R$599,90</span>
+                              R$550,90
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://umbro.vtexassets.com/arquivos/ids/468449/U03L016_182.jpg?v=638467384443600000" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Umbro Rudy Print</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              R$239,60
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/107987/03/fnd/BRA/w/1000/h/1000/fmt/png" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Chuteira De Futsal Future 7 Match</h5>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">R$649,90</span>
+                              R$609,90
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://imgnike-a.akamaihd.net/768x768/012944IPA4.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Nike Renew Ride 3 Masculino</h5>
+                              <!-- Product price-->
+                              R$ 294,49
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://umbro.vtexassets.com/arquivos/ids/467306/U01FB00220_263.jpg?v=638451727294130000" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Chuteira Futsal Umbro X-Comfort</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">R$ 294,49</span>
+                              R$ 264,49
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://imgnike-a.akamaihd.net/768x768/02876551A5.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Tênis Nike Interact Run SE</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              R$ 474,99
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <img src="back.jpg" class="img-fluid" alt="...">
+  <hr class="featurette-divider" id="barra_separar">
+  <div class="texto_marcas">Texto .....</div>
+
+  <div class="row row-cols-1 row-cols-md-6 g-4" id="marcas_logos">
+    <div class="col">
+      <div class="card h-100" id="logo_marca">
+        <img src="img/pumaLogo.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/adidasLogo.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/converseLogo.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/umbroLogo.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  
+
+
+      <div class="container"></div>
+      <footer>
+        <!-- Footer main -->
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">About</h2>
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Resources</h2>
+            <ul>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">eBooks</a></li>
+              <li><a href="#">Webinars</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Contact</h2>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Advertise</a></li>
+            </ul>
+          </div>
+          
+        </section>
+      
+        <!-- Footer social -->
+        <section class="ft-social">
+          <ul class="ft-social-list">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </section>
+      
+        <!-- Footer legal -->
+        <section class="ft-legal">
+          <ul class="ft-legal-list">
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li>&copy; 2024 Copyright</li>
+          </ul>
+        </section>
+      </footer>
+
+
+    
+</body>
+</html>

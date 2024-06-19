@@ -1,0 +1,53 @@
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: aqua;
+    padding: 40px 0 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.bnt-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.bnt-expandir > i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#menu_lateral{
+   height: 100%;
+   list-style-type: none;
+
+}
+
+ul li.item-menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 25px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 25px;
+
+}
+
+
+
+nav.menu-lateral:hover{
+    width:300px;
+}
